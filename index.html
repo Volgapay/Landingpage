@@ -222,10 +222,10 @@
                                 </div>
                                 <div class="d-flex align-items-center gap-md-4 gap-3">
                                     <div>
-                                        <a href="//app.volgapay.com/auth/login" class="hover1">Cadastre-se</a>
+                                        <a target="_blank" href="//app.volgapay.com/auth/login" class="hover1">Cadastre-se</a>
                                     </div>
                                     <div>
-                                        <a href="//app.volgapay.com/auth/login" class="hover2">Iniciar sessão</a>
+                                        <a target="_blank" href="//app.volgapay.com/auth/login" class="hover2">Iniciar sessão</a>
                                     </div>
                                 </div>
                             </div>
@@ -494,26 +494,67 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="d-flex flex-column h-100 gap-4" data-aos="flip-left">
                                 <h4>Uso individual</h4>
-                                <p class="pb-2 flex-grow-1">Ideal para quem precisa de praticidade e eficiência. Sem mensalidade, você só paga uma taxa de 2% por transação. Perfeito para uso pessoal ou pequenos negócios.</p>
-                                <div class="d-flex gap-4 align-items-center">
-                                    <h2>Grátis</h2>
-                                    <p>Taxa de 2% por transação</p>
-                                </div>
-                                <div><a href="//app.volgapay.com/auth/login" class="hover2">Comece Agora</a></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6">
-                            <div class="d-flex flex-column h-100 gap-4" data-aos="flip-left">
-                                <h4>Whitelabel</h4>
-                                <p class="pb-2 flex-grow-1">
-                                    Tenha sua própria marca personalizada com nossa solução Whitelabel. Controle total, personalização e suporte dedicado para impulsionar seu negócio ao próximo nível.
+                                <p class="pb-2 flex-grow-1" style="font-weight: 200;">
+                                    Ideal para quem precisa de praticidade e eficiência. Sem mensalidade, você só paga uma taxa de 2% por transação. Perfeito para uso pessoal ou pequenos negócios.
                                 </p>
                                 <div class="d-flex gap-4 align-items-center">
-                                    <h2>$<span class="number d-inline" data-final-value="500"></span></h2>
-                                    <p>Mensalidade fixa, sem taxas adicionais por transação</p>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <h4>PayIn</h4>
+                                        <ul class="d-flex flex-column">
+                                            <li>
+                                                <p class="d-inline" style="font-weight: 200;"><strong>PIX:</strong> 1.50%</p>
+                                            </li>
+                                            <li>
+                                                <p class="d-inline" style="font-weight: 200;"><strong>Transferência Bancária:</strong> 1.5%</p>
+                                            </li>
+                                            <li>
+                                                <p class="d-inline" style="font-weight: 200;"><strong>Boleto:</strong> 1.5%</p>
+                                            </li>
+                                            <li>
+                                                <p class="d-inline" style="font-weight: 200;"><strong>PicPay:</strong> 5%</p>
+                                            </li>
+                                            <li>
+                                                <p class="d-inline" style="font-weight: 200;"><strong>Cartão de Crédito:</strong> 6%</p>
+                                            </li>
+                                        </ul>
+                                        <h4 style="margin-top: 20px;">Payout</h4>
+                                        <ul class="d-flex flex-column">
+                                            <li><p class="d-inline" style="font-weight: 200;"><strong>Pix:</strong> 1.50%</p></li>
+                                            <li><p class="d-inline" style="font-weight: 200;"><strong>Transferência Bancária:</strong> 6.00%</li>
+                                            <li><p class="d-inline" style="font-weight: 200;"><strong>Recebimento D+3:</strong> 2.00% 
+                                                <i style="font-size:13px;letter-spacing:1px;color:#7bc8e5;">(com IOF incluído via crypto USDT ou transferência bancária em EUR/USD, taxas de Binance. Transações ilimitadas com valor mínimo de 6 USD e valor máximo de 10k USD)</i>
+                                        </li>
+
+                                            
+                                        </ul>
+
+                                    </div>
                                 </div>
-                                <div><a href="//app.volgapay.com/auth/login" class="hover2">Comece Agora </a></div>
                             </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6" style="
+                                                            background-image: url(./assets/images/whitelabel.png);
+                                                            background-repeat: no-repeat;
+                                                            background-position: bottom center;
+                                                        ">
+                            <div class="d-flex flex-column h-100 gap-4" data-aos="flip-left">
+                                <h4>Whitelabel <span style=" font-size: 20px; font-weight: 100; ">(Em breve)</span></h4>
+                                <p class="pb-2 flex-grow-1" style="font-weight: 200;">
+                                    Tenha sua própria marca personalizada com nossa solução Whitelabel. Controle total, personalização e suporte dedicado para impulsionar seu negócio ao próximo nível.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-center justify-content-center gap-md-4 gap-3">
+                                <div>
+                                    <a href="//app.volgapay.com/docs" class="hover1">Acesse nossa API</a>
+                                </div>
+                                <div>
+                                    <a href="./rates_volgapay.pdf" target="_blank" class="hover2">Consultar tarifas globais</a>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -540,7 +581,7 @@
                                             </a>
                                             <p>Simplifique sua gestão financeira com ferramentas digitais projetadas para otimizar o tempo e aumentar sua produtividade. Descubra as melhores práticas e como começar agora mesmo.</p>
                                             <div>
-                                                <a href="//app.volgapay.com/auth/login">Cadastre-se</a>
+                                                <a target="_blank" href="//app.volgapay.com/auth/login">Cadastre-se</a>
                                             </div>
                                         </div>
                                     </div>
@@ -550,7 +591,7 @@
                                         </a>
                                         <p>Conheça as vantagens do banco online e descubra como ele pode ser a escolha ideal para o seu pequeno negócio. Aproveite a praticidade e a segurança das nossas ferramentas.</p>
                                         <div>
-                                            <a href="//app.volgapay.com/auth/login">Cadastre-se</a>
+                                            <a target="_blank" href="//app.volgapay.com/auth/login">Cadastre-se</a>
                                         </div>
                                     </div>
                                 </div>
@@ -564,7 +605,7 @@
                                         </a>
                                         <p class="pe-lg-4">Fique atualizado sobre as principais inovações e tendências no setor financeiro. Explore como nossa plataforma está à frente do mercado, oferecendo recursos modernos e eficazes.</p>
                                         <div>
-                                            <a href="//app.volgapay.com/auth/login">Cadastre-se</a>
+                                            <a target="_blank" href="//app.volgapay.com/auth/login">Cadastre-se</a>
                                         </div>
                                     </div>
                                 </div>
@@ -581,7 +622,7 @@
                                     </a>
                                     <p>Descubra como nossa solução de banco móvel pode transformar sua experiência com gestão financeira, garantindo mais controle e liberdade.</p>
                                     <div>
-                                        <a href="//app.volgapay.com/auth/login">Cadastre-se</a>
+                                        <a target="_blank" href="//app.volgapay.com/auth/login">Cadastre-se</a>
                                     </div>
                                 </div>
                             </div>
