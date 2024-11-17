@@ -96,14 +96,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // ====== Custom_Cursor Effect  ======
-  document.querySelectorAll("a, button").forEach(function (element) {
-    element.addEventListener("mouseenter", function () {
-      cursorEffect.style.transform = "scale(1.5) translate(-30px, -30px)";
-    });
-    element.addEventListener("mouseleave", function () {
-      cursorEffect.style.transform = "scale(1) translate(-30px, -30px)";
-    });
-  });
+  // document.querySelectorAll("a, button").forEach(function (element) {
+  //   element.addEventListener("mouseenter", function () {
+  //     cursorEffect.style.transform = "scale(1.5) translate(-30px, -30px)";
+  //   });
+  //   element.addEventListener("mouseleave", function () {
+  //     cursorEffect.style.transform = "scale(1) translate(-30px, -30px)";
+  //   });
+  // });
 });
 
 // ====== 1.1 header (aside navigation bar) ======
